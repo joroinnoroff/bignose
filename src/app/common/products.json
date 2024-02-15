@@ -1,0 +1,32 @@
+[
+  {
+    "productId": 1,
+    "productName": "Petit",
+    "productDescription": "CAUS",
+    "productBlend": "Negra",
+    "productImage": "/images/petitnegra.webp",
+    "aboveProducer": "Mass del Gougl",
+    "producer": "Can Ràfols dels Caus",
+    "year": 2021
+  },
+  {
+    "productId": 2,
+    "productName": "Petit",
+    "productDescription": "CAUS",
+    "productBlend": "Blanco",
+    "productImage": "/images/petitblanco.png",
+    "aboveProducer": "Mass del Gougl",
+    "producer": "Can Ràfols dels Caus",
+    "year": 2022
+  },
+  {
+    "productId": 3,
+    "productName": "Petit",
+    "productDescription": "CAUS",
+    "productBlend": "Rosado",
+    "productImage": "/images/petitrosa.png",
+    "aboveProducer": "Mass del Gougl",
+    "producer": "Can Ràfols dels Caus",
+    "year": 2022
+  }
+]

@@ -21,7 +21,7 @@ const transition = { duration: 0.8, ease: "easeInOut" };
   return(
     <div className='flex flex-col lg:flex-row items-center justify-center'>
                        <motion.div
-                       className='flex'
+                       className='flex flex-col lg:flex-row'
               animate={{ x: 0, opacity: 1 }}
               transition={transition}
               initial={{ x: 0, opacity: 0 }}>

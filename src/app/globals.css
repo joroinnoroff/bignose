@@ -5,11 +5,20 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Oi&display=swap');
 
 @font-face {
   font-family: 'CustomFont';
 
   src: url('../app/fonts/Oi/Oi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont1';
+
+  src: url('../app/fonts/Marck_Script/MarckScript-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,9 +35,7 @@ h1 {
 }
 
 h6 {
-  font-family: "Marck Script", cursive;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'CustomFont1';
 }
 
 #Products:nth-child(3n+1) h5 {

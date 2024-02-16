@@ -4,7 +4,7 @@ export default function Producers() {
   return (
     <div className="text-white">
 
-    <select className="text-black p-3 rounded-md">
+    <select className="text-black md:p-3 rounded-md">
       <option>Homborsund Bryggeri - BIGNOSE Cider</option>
       <option>Can Rafols dels Caus</option>
       <option>Mas Oller</option>

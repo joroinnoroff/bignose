@@ -39,16 +39,16 @@ export default function Home() {
         <div>
           <div className="p-10">
             <motion.h1
-              className="text-lg md:text-6xl  text-white"
+              className="text-2xl md:text-6xl  text-white"
               id="Left"
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={transition}
             >
               BIG NOSE
-              <Image src={"/images/homblogo.png"} height={100} width={100} alt="homborsund bryggeri"/>
+              
        
-              <Link href={"https://www.instagram.com/bignose.norway/"} className="hover:scale-110 transition-all absolute right-20 top-20" target="_blank">
+              <Link href={"https://www.instagram.com/bignose.norway/"} className="hover:scale-110 transition-all absolute right-20 top-15" target="_blank">
                 <Instagram />
               </Link>
    

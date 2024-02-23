@@ -7,7 +7,8 @@
     "productImage": "/images/petitnegra.webp",
     "aboveProducer": "Mass del Gougl",
     "producer": "Can Ràfols dels Caus",
-    "year": 2021
+    "year": 2021,
+    "href": "https://www.vinmonopolet.no/Land/Spania/Catalonia/Pened%C3%A8s/Petit-Caus-Negre-2021/p/15879601"
   },
   {
     "productId": 2,
@@ -17,7 +18,8 @@
     "productImage": "/images/petitblanco.png",
     "aboveProducer": "Mass del Gougl",
     "producer": "Can Ràfols dels Caus",
-    "year": 2022
+    "year": 2022,
+    "href": "https://www.vinmonopolet.no/Land/Spania/Catalonia/Pened%C3%A8s/Petit-Caus-Blanc-2022/p/15879401"
   },
   {
     "productId": 3,
@@ -27,6 +29,7 @@
     "productImage": "/images/petitrosa.png",
     "aboveProducer": "Mass del Gougl",
     "producer": "Can Ràfols dels Caus",
-    "year": 2022
+    "year": 2022,
+    "href": "https://www.vinmonopolet.no/Land/Spania/Catalonia/Pened%C3%A8s/Petit-Caus-Rosat-2022/p/15879801"
   }
 ]

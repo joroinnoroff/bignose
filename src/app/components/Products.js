@@ -29,7 +29,7 @@ const transition = { duration: 0.8, ease: "easeInOut" };
                                        transition={transition}
                                        initial={{ x: 0, opacity: 0 }}>
                               {products.map((product, index) => ( // Added index as the second argument
-                                 <Link href={product.href} target="_blank">
+                                 <Link href={product.href} target="_blank" key={index}>
                                    <div key={product.productId} className="flex">
                                      <div className='text-center'>
                                        <div className=''>

@@ -24,7 +24,7 @@ const transition = { duration: 0.8, ease: "easeInOut" };
     <div className='flex flex-col lg:flex-row items-center justify-center'>
                        
                          <motion.div
-                         className='flex flex-col lg:flex-row'
+                         className='flex flex-col lg:flex-row gap-10 md:gap-3'
                                        animate={{ x: 0, opacity: 1 }}
                                        transition={transition}
                                        initial={{ x: 0, opacity: 0 }}>
@@ -40,6 +40,7 @@ const transition = { duration: 0.8, ease: "easeInOut" };
                                        <p className='text-gray-400'>{product.year}</p>
                                        <h6 className='text-yellow-500'>{product.aboveProducer}</h6>
                                        <p className='text-white uppercase'>{product.producer}</p>
+                                   
                                      </div>
                                      <Image
                                        src={product.productImage}

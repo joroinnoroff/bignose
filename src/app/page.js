@@ -11,6 +11,7 @@ import Image from "next/image";
 import Contact from "./components/Contact";
 import Producers from "./components/Producers";
 import { Instagram } from "lucide-react";
+import Footer from "./components/Footer";
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const [section, setSection] = useState('products');
@@ -62,7 +63,7 @@ export default function Home() {
                 transition={transition}
               >
                 
-                <div className="mb-10">
+                <div className="mb-10 mt-20">
                   {/* Navbar with links */}
                   <ul className="list-none flex gap-5 text-white mt-4 text-sm md:text-3xl">
                     <li className="uppercase">
@@ -121,6 +122,7 @@ export default function Home() {
           </div>
         </div>
       )}
+ 
     </div>
   );
 }

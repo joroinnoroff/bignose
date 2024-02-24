@@ -71,7 +71,7 @@ export default function Contact() {
           
      
           
-          <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 hover:scale-105 transition-all">
+          <div class=" flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80 md:w-96 hover:scale-105 transition-all">
             <div class="p-10">
             <Link href={"https://mentalhelse.no/fa-hjelp/studenttelefonen/"} target="_blank" className="flex flex-col items-center justify-center">
                 <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -85,7 +85,7 @@ export default function Contact() {
         
           </div>
 
-          <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 hover:scale-105 transition-all">
+          <div class=" flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80 md:w-96 hover:scale-105 transition-all">
             <div class="p-10">
             <Link href={"https://mentalhelse.no/fa-hjelp/arbeidslivstelefonen/"} target="_blank" className="flex flex-col items-center justify-center">
                 <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -100,7 +100,7 @@ export default function Contact() {
           </div>
 
 
-          <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 hover:scale-105 transition-all">
+          <div class=" flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-80 md:w-96 hover:scale-105 transition-all">
             <div class="p-10">
             <Link href={"https://sidetmedord.mentalhelse.no/"} target="_blank" className="flex flex-col items-center">
                 <h5 class="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">

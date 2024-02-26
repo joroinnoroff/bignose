@@ -18,7 +18,7 @@ export default function Contact() {
     
         <div className="p-10">
     
-          <div className="mt-3">
+          <div className="mt-20">
    
           <motion.div
                        className='flex mt-10 justify-between w-full flex-col'

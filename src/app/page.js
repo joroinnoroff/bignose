@@ -69,7 +69,7 @@ export default function Home() {
                     <li className="uppercase">
                       <a
                         href="#"
-                        className={`${section === 'products' ? "border-b" : "text-gray-500"}`}
+                        className={`${section === 'products' ? "border-b" : "text-gray-300"}`}
                         onClick={() => handleNavLinkClick('products')}
                       >
                         Produkter
@@ -78,7 +78,7 @@ export default function Home() {
                     <li className="uppercase">
                       <a
                         href="#"
-                        className={`${section === 'producers' ? "border-b" : "text-gray-500"}`}
+                        className={`${section === 'producers' ? "border-b" : "text-gray-300"}`}
                         onClick={() => handleNavLinkClick('producers')}
                       >
                         Produsenter
@@ -87,7 +87,7 @@ export default function Home() {
                     <li className="uppercase">
                       <a
                         href="#"
-                        className={`${section === 'contact' ? "border-b" : "text-gray-500"}`}
+                        className={`${section === 'contact' ? "border-b" : "text-gray-300"}`}
                         onClick={() => handleNavLinkClick('contact')}
                       >
                         Kontakt
